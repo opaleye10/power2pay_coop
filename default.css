@@ -1,0 +1,262 @@
+@media screen and (min-width: 1000px){
+    body{
+        background: #f7f7f7;
+        width: 93%;
+        font-weight: lighter;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    #pname{
+        padding: 10px;
+        margin: 10px;
+    }
+    #ptitle{
+        padding: 10px;
+        margin: 10px;
+    }
+    #rum{
+        margin: 10px;
+    }
+    #randomInsert{
+        background: #f7f7f7;
+        padding: 40px;
+        max-width:600px;
+        margin:40px auto;
+        border-radius:10px;
+        box-shadow:0 4px 10px 4px;
+    }
+
+    .tab-group_test {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 40px 0;
+    }
+    .tab-group_test:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .tab-content_test > div:last-child {
+        display:none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #imageLoaded{
+        display: inline;
+        padding: 10px;
+    }
+    #serachDiv{
+        text-align: justify;
+    }
+    p{
+        line-height:150%
+    }
+    aside{
+        width: 93%;
+        text-align: justify;
+        text-space: 1.5;
+        font-size: .9em;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #f7f7f7;
+        padding: 10px;
+        border-radius:10px;
+        box-shadow:0 4px 10px 4px;
+
+    }
+    hr{
+        outline-style: inset;
+        outline-width: thin;
+    }
+    #commentName{
+        font-weight: lighter;
+        color: #3b5998;
+        font-style: italic;
+        box-shadow: #080808;
+
+
+    }
+    #subpostTime{
+        font-size: 0.7em;
+        font-weight: lighter;
+        font-style: italic;
+    }
+    #header{
+        width: 93%;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        border: 0.4px solid #8b9dc3;
+        background: #3b5998;
+    }
+
+    #listDetails{
+        width: 100%;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+    #postMsg{
+        text-align: justify;
+        text-space: 1.5;
+        font-size: 1.2em;
+    }
+
+    #listInserts{
+        font-size: 2em;
+        font-style: italic;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    #content{
+        background:#f7f7f7 ;
+        padding: 20px;
+        width: 93%;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 0.4px solid #8b9dc3;
+        mso-border-shadow:yes;
+        border-bottom: hidden;
+    }
+
+    #postForm{
+        text-align: center;
+    }
+    #footer{
+        width: 93%;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        border: 0.4px solid #d5dce4;
+        mso-border-shadow:yes;
+        background: #ffffff;
+
+
+
+    }
+    /*Nav Menu*/
+    div.nav-menu{
+        background-color: #ffffff;
+        padding: 0 20px;
+    }
+    div.nav-menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    div.nav-menu ul li{
+        list-style: none;
+        float: left;
+    }
+    div.nav-menu ul li a:link,
+    div.nav-menu ul li a:visited{
+        display: block;
+        font-size: 90%;
+        padding: 10px 25px 10px 0;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .sellnk{
+        border-bottom: 0.6px solid #FFFFFf;
+    }
+    .sellnk:hover{
+        background-color: #305782;
+        color: #ffffff;
+    }
+    .menu_trigger{
+        display: none;
+
+    }
+}
+@media screen and (min-width: 0px){
+    .menu_trigger{
+        width: 93%;
+        display: block;
+        color: #305782;
+        background-color: #d5dce4;
+        text-align: right;
+        font-size: 1.5em;
+        cursor: pointer;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+
+
+    }
+    div.nav_expanded{
+        display: block;
+    }
+    div.nav-menu ul li{
+        float: none;
+        border-bottom:0.7px solid #f7f7f7;
+    }
+    div.nav-menu ul li:last-child{
+        border-bottom: none;
+    }
+    div.nav-menu{
+        display: none;
+    }
+    #postMsg{
+        text-align: justify;
+        text-space: 1.2;
+        font-size: 1.2em;
+    }
+    #listInserts{
+        font-size: 1.5em;
+        font-style: italic;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+    .titleofposts{
+        text-align: left;
+        text-space: 1.2em;
+        font-size: 2em;
+        text-shadow: #2b669a;
+        margin: 0;
+    }
+    #footer{
+        width: 93%;
+        font-weight: lighter;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        border: 0.4px solid #d5dce4;
+        mso-border-shadow:yes;
+    }
+}
+.clearfix:before, .clearfix:after{ content: ""; display: table;}
+.clearfix:after{ clear: both;}
+.clearfix{*zoom:1;}
+
+

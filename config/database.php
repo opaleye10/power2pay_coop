@@ -1,0 +1,10 @@
+<?php
+define('DB_TYPE','mysql');
+//define('DB_HOST','XpertproCombined');
+define('DB_HOST','localhost');
+define('DB_NAME','account_power2pay');
+//define('DB_NAME','gtwbunsl_power2pay');
+//define('DB_USER','gtwbunsl_power2pay');
+define('DB_USER','root');
+define('DB_PASS','');
+//define('DB_PASS','Olabode@001');
